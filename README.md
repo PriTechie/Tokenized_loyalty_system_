@@ -1,28 +1,29 @@
-# Air Travel Loyalty Points System
+# ✈️ Tokenized Loyalty System for Air Travel
 
-Welcome to the Air Travel Loyalty Points System! This project is designed to enhance the flying experience by allowing users to earn and redeem loyalty points using a blockchain-based tokenized system.
+This project is a blockchain-based loyalty rewards platform for the tourism industry. Users can earn and redeem tokenized points when they travel via different airlines and tourism services.
 
-## Features
+## 💡 Features
+- ERC20-based token for loyalty points
+- User wallets to store and redeem tokens
+- Smart contracts to handle reward logic
+- Frontend interface for user interaction
 
-- **User Authentication:** Secure login for users.
-- **Profile Management:** Users can view and manage their profiles.
-- **Loyalty Points System:** Earn points for various transactions, including flight bookings and hotel stays.
-- **Diamante Wallet Integration:** Securely store and manage loyalty tokens.
+## 🛠 Tech Stack
+- Solidity
+- Hardhat
+- Metamask (for testing)
 
-## Smart Contracts
+## 📁 Structure
+- `contracts/`: Smart contracts
+- `frontend/`: (If used) Web interface
+- `scripts/`: Deployment and testing scripts
 
-This project includes the following smart contracts:
+## 🧪 To Run Locally
+1. Clone the repo  
+2. Install dependencies: `npm install`  
+3. Compile contracts: `npx hardhat compile`  
+4. Run local node: `npx hardhat node`  
+5. Deploy contracts: `npx hardhat run scripts/deploy.js --network localhost`
 
-- `DiamanteWallet.sol`: A wallet contract to manage Ether deposits and withdrawals.
-- `MyToken.sol`: A standard ERC20 token implementation for loyalty points.
-- `MyNFT.sol`: A contract for handling non-fungible tokens related to user rewards.
+---
 
-## Getting Started
-
-To get started with this project, clone the repository and install the necessary dependencies:
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-# Install dependencies (if applicable)
-npm install
