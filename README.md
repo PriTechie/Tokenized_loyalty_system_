@@ -9,16 +9,17 @@ This project is a blockchain-based loyalty rewards platform for the tourism indu
 - Frontend interface for user interaction
 
 ## Tech Stack
-- Solidity
-- Hardhat
-- Metamask (for testing)
+- **Solidity** – for writing smart contracts  
+- **Hardhat** – for contract deployment and testing  
+- **Metamask** – for wallet integration  
+- **Ethers.js** – to interact with the contracts
 
 ## Structure
 - `contracts/`: Smart contracts
-- `frontend/`: (If used) Web interface
+- `frontend/`: Web interface
 - `scripts/`: Deployment and testing scripts
 
-## 🧱 Contract Structure
+## Contract Structure
 - **`LoyaltyToken.sol`**  
   Custom ERC20 token that represents loyalty points.
 - **`LoyaltyProgram.sol`**  
